@@ -8,7 +8,7 @@ app = Flask(__name__)
 def main():
     return '''
      <form action="/echo_user_input" method="POST">
-         <input name="user_input">
+         Enter Something: <input name="user_input">
          <input type="submit" value="Submit!">
      </form>
      '''
